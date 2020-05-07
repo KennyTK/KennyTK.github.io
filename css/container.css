@@ -1,10 +1,30 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  /*float: bottom;*/
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+}
+
 h1 {
-    text-align: center;
-    font-family: Tahoma, Arial, sans-serif;
-    color: orange;
-    margin: 100px 0;
-  }
-  
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Tahoma, Arial, sans-serif;
+  color: orange;
+}
+
+/*
   .button {
     font-size: 2em;
     padding: 10px;
@@ -60,7 +80,7 @@ h1 {
     font-weight: bold;
     text-decoration: none;
     color: #000000;
-    font-family: Tahoma, Arial, sans-serif; /* here */
+    font-family: Tahoma, Arial, sans-serif;
   }
   .popup .close:hover {
     color: #F40000;
@@ -69,3 +89,4 @@ h1 {
     max-height: 70%;
     overflow: auto;
   }
+  */
