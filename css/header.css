@@ -1,7 +1,8 @@
   .header {
     overflow: hidden;
     background-color: #f1f1f1;
-    padding: 20px 10px;
+    padding: 0px 0px;
+    /*20px 10px*/
     margin: 0px;
     border-radius: 0;
   }
@@ -17,24 +18,30 @@
     border-radius: 4px;
   }
 
-  .header a.logo {
+  .header .logo {
     font-size: 25px;
     font-weight: bold;
-    padding: 4px;
+    /*padding: 4px;*/
+    border-width: 0px;
+    margin: 5px 5px;
+    padding: 0px 0px;
+    height: 40px;
+    width: 40px;
   }
 
   .header a:hover {
-    background-color: #ddd;
+    background-color: #0A3D62;
     color: black;
   }
 
   .header a.active {
-    background-color: dodgerblue;
+    background-color: #F3B63A;
     color: white;
   }
 
   .header-right {
     float: right;
+    margin: 5px 5px;
   }
 
   @media screen and (max-width: 500px) {
